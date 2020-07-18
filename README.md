@@ -1,6 +1,10 @@
-counter = 1
-i = 0
-do {
-  i = i + 1
-  counter = counter * i
-} while (i < 10)
+let age = 26
+let number = 24
+let name = 'cool'
+if (age < number) {
+    console.log('показать ' + number)
+} else if (age > number) {
+    console.log('показать ' + age)
+} else {
+    console.log('если равны ' + name)
+}
