@@ -1,10 +1,21 @@
-let age = 26
-let number = 24
-let name = 'cool'
-if (age < number) {
-    console.log('показать ' + number)
-} else if (age > number) {
-    console.log('показать ' + age)
-} else {
-    console.log('если равны ' + name)
+for (let i = 0; i <= 100; i++){
+    console.log(i*i)
 }
+
+
+
+let i = 0
+while (i <= 100) {
+    console.log(i * i)
+    i++
+}
+
+
+
+
+
+let i = 0
+do {
+    console.log(i*i)
+    i++
+} while (i <= 100)
