@@ -5,7 +5,7 @@ for (let i = 0; i <= 10; i++){
 
 
 let i = 0
-while (i <= 100) {
+while (i <= 10) {
     console.log(i * i)
     i++
 }
@@ -18,4 +18,4 @@ let i = 0
 do {
     console.log(i*i)
     i++
-} while (i <= 100)
+} while (i <= 10)
